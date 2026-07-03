@@ -18,7 +18,7 @@ const personalProjects = [
     description: "Developed an e-commerce platform supporting product browsing, shopping cart, order placement, and user authentication.",
     image: "./assets/shopee_mart.png",
     link: "https://shopelo.vercel.app/",
-    tech: ["React", "Redux", "NodeJS", "MongoDB"],
+    tech: ["React", "Redux", "Shadcn UI", "NodeJS", "MongoDB"],
   },
   {
     title: "Restoran",
@@ -26,6 +26,13 @@ const personalProjects = [
     image: "./assets/restoran.png",
     link: "https://restoran-delta-ashy.vercel.app/",
     tech: ["React", "Shadcn UI"],
+  },
+  {
+    title: "Real-time chat app",
+    description: "A real-time messaging application built with React and Node.js, using Socket.Io to enable instant communication between users.",
+    image: "./assets/real-time.png",
+    link: "https://nexus-chat-realtime.vercel.app/",
+    tech: ["React", "NodeJS", "Shadcn UI", "Socket.IO", "MongoDB"],
   },
 ];
 
