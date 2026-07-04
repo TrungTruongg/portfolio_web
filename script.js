@@ -3,7 +3,7 @@ const personalProjects = [
     title: "My-Task",
     description: "Task and project management platform.",
     image: "./assets/mytask.png",
-    link: "https://project-management-system-orpin.vercel.app/",
+    link: "https://mytask-pms.vercel.app/",
     tech: ["React", "Express", "NodeJS", "MongoDB"],
   },
   {
@@ -24,7 +24,7 @@ const personalProjects = [
     title: "Restoran",
     description: "Restaurant landing page developed with ReactJs. Built as a frontend practice project to improve UI composition, responsive layouts, and landing page development skills.",
     image: "./assets/restoran.png",
-    link: "https://restoran-delta-ashy.vercel.app/",
+    link: "https://restoran-booking.vercel.app/",
     tech: ["React", "Shadcn UI"],
   },
   {
@@ -41,6 +41,7 @@ const companyProjects = [
     title: "Leave Management System",
     description: "Employee leave request and approval workflow.",
     image: "./assets/qlns.png",
+    link: "https://tbs-qlns.vercel.app/",
     tech: ["React", "NodeJS", "MongoDB"],
   },
 ];
@@ -73,6 +74,7 @@ personalProjects.forEach((project) => {
 
 companyProjects.forEach((project) => {
   companyContainer.innerHTML += `
+  <a href="${project.link}" target="_blank" class="project-link">
 <div class="project-card hidden">
 
     <div class="project-image">
@@ -88,6 +90,7 @@ companyProjects.forEach((project) => {
     </div>
 
 </div>
+</a>
 `;
 });
 
