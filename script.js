@@ -34,6 +34,13 @@ const personalProjects = [
     link: "https://nexus-chat-realtime.vercel.app/",
     tech: ["React", "NodeJS", "Shadcn UI", "Socket.IO", "MongoDB"],
   },
+  {
+    title: "Aurix SEO Platform",
+    description: "A comprehensive SEO platform that provides tools and insights to optimize website performance and improve search engine rankings.",
+    image: "./assets/aurix_seo.png",
+    link: "https://aurix-seo.vercel.app/",
+    tech: ["React"],
+  },
 ];
 
 const companyProjects = [
